@@ -1,13 +1,9 @@
-:root{
-    --fb-color: #3b5998; 
-}
-
 .header {
     grid-area: h;
-    background-color: var(--fb-color);
-    
+    background-color: green;
 }
-.header img{
-    width: 100px;
-    height: 100px;
+
+.header img {
+    width: 20px;
 }
+
