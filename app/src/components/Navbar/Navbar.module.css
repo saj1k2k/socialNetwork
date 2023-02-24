@@ -1,12 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@400;700&display=swap');
+
+body{
+    background-color: rgb(32, 32, 32);
+}
 .nav {
     grid-area: n;
-    background-color: burlywood;
+    background-color: rgb(104, 102, 99);
     padding: 20px;
 }
 
 .item a {
     color: white;
     text-decoration: none;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: bold;
 }
 
 .item a.activeLink {
